@@ -1,9 +1,9 @@
 <?php
  //fourth_test.php
- echo 'fourth_test, hello wikkens';
+
+ echo 'The categories are: </br>';
+ foreach($data as $k1 => $v1){
+  echo $k1 . '</br>';
+ }
  
- $master_arr = array(
-                'name'    => "azrael",
-                'hobbies' => "catching mice"
- );
 ?>
